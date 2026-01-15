@@ -65,18 +65,3 @@ The final score will be based on a combination of two components: the classifica
 of correct predictions out of 100 samples, and a code review, which will assess the quality and sophistication of your
 implementation.
 
-
-  | Model               | Why I Tried                                                                                         |
-  |---------------------|-----------------------------------------------------------------------------------------------------|
-  | Logistic Regression | Simple baseline; with strong L2 regularization (C=0.001), resists overfitting on small data         |
-  | SVM (RBF)           | Can capture non-linear patterns; small C prevents fitting noise                                     |
-  | Decision Tree       | Interpretable; with depth limits, acts as simple rule learner                                       |
-  | Random Forest       | Reduces variance through bagging; shallow trees prevent overfitting                                 |
-  | XGBoost             | Gradient boosting with built-in L1/L2 regularization (reg_alpha, reg_lambda)                        |
-  | LightGBM            | Faster than XGBoost; leaf-wise growth can be more efficient on small data                           |
-  | CatBoost            | Native categorical handling (no encoding needed); strong regularization; often wins on tabular data |
-  | Naive Bayes         | Works well on small datasets; assumes feature independence (good when features are weak)            |
-  | AdaBoost            | Focuses on hard examples; weak learners ensemble reduces overfitting                                |
-  | Bagging             | Reduces variance; good when individual models are unstable                                          |
-  | Voting Ensemble     | Combines top models; reduces individual model variance                                              |
-  | Stacking Ensemble   | Meta-learner can find optimal model combination                                                     |
