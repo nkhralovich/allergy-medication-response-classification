@@ -44,7 +44,7 @@ dataset:
 - `symptom severity`: Ordinal variable describing the severity of symptoms before treatment (e.g., Mild, Moderate,
 Severe).
 - `medication type:` Categorical variable indicating the class of medication prescribed (e.g., Antihistamine, Corti-costeroid).
--  `dosage mg`: Numeric value representing the daily dosage of the medication in milligrams.
+- `dosage mg`: Numeric value representing the daily dosage of the medication in milligrams.
 - `treatment duration days`: Integer value for the number of days the patient has been on the medication.
 - `comorbid conditions`: Categorical variable listing any coexisting conditions (e.g., Asthma, Eczema, None).
 - `previous response`: Categorical variable describing the patient’s response to similar medications in the past (e.g. Good, Poor, None).
@@ -52,16 +52,4 @@ Severe).
 
 The target variable, `response class`, will be used to train and evaluate the classification mode.
 
-## Delivery
-
-Please upload the Jupyter Notebook containing the Python code you used to solve the exercise, and the Excel file with
-the results of the 100 samples.
-
-The files should follow this naming convention: wsi ani25 project {surname} {name}.ipynb and wsi ani25 project {surname}.
-
-## Evaluation
-
-The final score will be based on a combination of two components: the classification accuracy measured by the number
-of correct predictions out of 100 samples, and a code review, which will assess the quality and sophistication of your
-implementation.
 
